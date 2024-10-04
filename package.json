@@ -1,7 +1,7 @@
 {
-  "name": "ironman-api",
-  "version": "2.0.1",
-  "description": "An npm with some features.",
+  "name": "haki-api",
+  "version": "1.0.0",
+  "description": "An npm with some features by haki and ironman.",
   "main": "index.js",
   "module": "index.mjs",
   "type": "commonjs",
@@ -16,7 +16,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "ironman-api",
+    "haki-api",
     "api",
     "pinterest-dl",
     "pinterest",
@@ -25,7 +25,7 @@
     "m3u8-converter",
     "tiktok-dl"
   ],
-  "author": "IRON-M4N",
+  "author": "HAKI",
   "license": "Apache-2.0",
   "dependencies": {
     "axios": "^1.6.7",
@@ -39,10 +39,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/IRON-M4N/ironman-api.git"
+    "url": "git+https://github.com/hakisolos/haki-api.git"
   },
   "bugs": {
-    "url": "https://github.com/IRON-M4N/ironman-api/issues"
+    "url": "https://github.com/hakisolos/haki-api/issues"
   },
-  "homepage": "https://github.com/IRON-M4N/ironman-api#readme"
+  "homepage": "https://github.com/hakisolos/haki-api#readme"
 }
