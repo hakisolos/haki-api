@@ -1,18 +1,18 @@
 ![Furina](https://i.imgur.com/mgvEIuY.jpg)
 
-# Ironman-API
+# HAKI-API
 
 An API package providing various utilities, including media downloading and processing features.
 
 ## Installation
 
-You can install `ironman-api` using npm:
+You can install `haki-api` using npm:
 
 ```bash
-npm install ironman-api
+npm install haki-api
 ```
 
-## Features
+## HAKI API Features
 
 - [Pinterest Downloader](#pinterest)
 - [MediaFire Downloader](#mediafire)
@@ -26,8 +26,8 @@ npm install ironman-api
 Download media from Pinterest.
 
 ```js
-const { pinterest } = require('ironman-api');
-//import { pinterest } from 'ironman-api';
+const { pinterest } = require('haki-api');
+//import { pinterest } from 'hakian-api';
 
 (async () => {
   console.log(await pinterest('https://in.pinterest.com/pin/617204323960160868/'));
@@ -40,8 +40,8 @@ _You can use [pin.it](https://pin.it) and [in.pinterest.com](https://in.pinteres
 Download files from MediaFire.
 
 ```js
-const { mediafire } = require('ironman-api');
-//import { mediafire } from 'ironman-api';
+const { mediafire } = require('haki-api');
+//import { mediafire } from 'haki-api';
 
 (async () => {
   console.log(await mediafire('https://www.mediafire.com/xyz.zip'));
@@ -53,8 +53,8 @@ const { mediafire } = require('ironman-api');
 Upload images to Telegraph.
 
 ```js
-const { telegraph } = require('ironman-api');
-//import { telegraph } from 'ironman-api';
+const { telegraph } = require('haki-api');
+//import { telegraph } from 'haki-api';
 
 (async () => {
   console.log(await telegraph('./img.png'));
@@ -66,8 +66,8 @@ const { telegraph } = require('ironman-api');
 Download videos from TikTok.
 
 ```js
-const { tiktok } = require('ironman-api');
-//import { tiktok } from 'ironman-api';
+const { tiktok } = require('haki-api');
+//import { tiktok } from 'haki-api';
 
 (async () => {
   console.log(await tiktok('https://www.tiktok.com/videourl'));
@@ -79,8 +79,8 @@ const { tiktok } = require('ironman-api');
 Upload images to Uguu .
 
 ```js
-const { fileUguu } = require('ironman-api');
-//import { fileUguu } from 'ironman-api';
+const { fileUguu } = require(haki-api');
+//import { fileUguu } from 'haki-api';
 
 (async () => {
   console.log(await fileUguu('./img.png'));
@@ -92,8 +92,8 @@ const { fileUguu } = require('ironman-api');
 M3U8 to MP4
 
 ```js
-const { m3u8 } = require('ironman-api');
-//import { m3u8 } from 'ironman-api';
+const { m3u8 } = require('haki-api');
+//import { m3u8 } from 'haki-api';
 
 const convert = new m3u8();
 convert.InputFile('https://file.m3u8') //also can be a path
@@ -124,6 +124,11 @@ This package is under development, and many exciting features are planned for fu
 
 ## Contributing
 
-We welcome contributions! If you find any issues or have suggestions for improvement, feel free to open an issue or submit a pull request. If you want to contact me, check my [GitHub profile](https://github.com/IRON-M4N).
+We welcome contributions! If you find any issues or have suggestions for improvement, feel free to open an issue or submit a pull request. If you want to contact me, check my [GitHub profile](https://github.com/hakisolos).
 
-Copyright © 2024 IRON-M4N
+## CREDITS 
+- HAKI
+-IRON MAN
+-GIFTED TECH
+
+Copyright © 2024 HAKI & IRON-M4N
